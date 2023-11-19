@@ -2,19 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
     <link rel="stylesheet" href="css\stiles.css" />
-    <script src="js\todo.js"></script>
-    <title>Document</title>
   </head>
-  <body>
-    <div class="hui">
-      <h1>Список твоих врагов</h1>
-      <input type="text" id="in" />
-      <button id="add">Добавить</button>
-      <hr />
-      <div id="out"></div>
-      <p>Осталось <span id="total"></span></p>
+  <body class="body">
+    <div class="base">
+      <h1 class="h">Список врагов</h1>
+      <div class="stileAll">
+        <input type="text" id="input" placeholder="Введи имя" />
+        <button id="btn">Добавить</button>
+      </div>
+      <div class="list-wrapper" id="list"></div>
     </div>
+    <script src="js\todo.js"></script>
   </body>
 </html>

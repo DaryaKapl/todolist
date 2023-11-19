@@ -1,0 +1,59 @@
+.body {
+  background-color: rgb(125, 118, 118);
+}
+.base {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 5% 0%;
+}
+.h {
+  color: rgb(253, 253, 253);
+  text-shadow: 4px 4px 1px #300000, 4px 6px 1px #400000, 4px 8px 1px #500000,
+    4px 10px 1px #600000, 4px 12px 1px #700000, 4px 14px 1px #800000,
+    4px 16px 1px #900000, 4px 18px 1px #a00000, 4px 20px 1px #b00000,
+    4px 22px 1px #c00000, 4px 24px 1px #d00000, 4px 26px 1px #e00000,
+    4px 28px 1px #f00000;
+}
+.stileAll {
+  padding: 5%;
+}
+.stileAll input {
+  font-size: 1rem;
+  padding: 10px;
+  border: rgb(255, 1, 98) 2px solid;
+}
+.stileAll button,
+.nameList button {
+  padding: 12px;
+  background-color: rgb(13, 13, 87);
+  color: white;
+  font-weight: bolder;
+  border: solid 1px rgb(36, 6, 125);
+}
+.stileAll button:hover,
+.nameList button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(212, 7, 7);
+  border: rgb(255, 0, 0) 1px solid;
+  cursor: pointer;
+}
+.list-item {
+  width: 100%;
+  margin: 3% 0%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-name {
+  padding: 10px;
+  font-size: 2rem;
+  font-family: "Great Vibes", cursive;
+}
+.death {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
